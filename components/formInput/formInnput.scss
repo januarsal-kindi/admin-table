@@ -1,0 +1,33 @@
+.input-group {
+  label {
+    display: block;
+    margin: 0px 0px 15px 0px;
+
+    span {
+      width: 100px;
+      font-weight: bold;
+      float: left;
+      padding-top: 8px;
+      padding-right: 5px;
+    }
+  }
+
+  .input-field:focus {
+    border: 1px solid #0c0;
+  }
+
+  input.input-field {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    -moz-box-shadow: 1px 1px 4px #ebebeb;
+    -webkit-box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+  }
+}

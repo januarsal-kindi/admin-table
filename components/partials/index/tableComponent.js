@@ -6,7 +6,6 @@ export const tableComponent = (props) => {
 
     useEffect(() => {
     }, [props.productList]);
-    console.log(props.productList)
     return (
         <div className="main-content__table content-table">
             <div className="table-header">
@@ -60,7 +59,7 @@ export const tableComponent = (props) => {
                         <Fragment>
                             {props.productList.length > 0 ? (
                                 props.productList.map((product, index) => (
-                                    <div key={index} className="table-body__row" onClick={() => props.onClickRow(product.id)}>
+                                    <div key={index} className="table-body__row table-body__row--content" onClick={() => props.onClickRow(product.id)}>
                                         <div className="cell">{product.id}</div>
                                         <div className="cell">{product.name}</div>
                                         <div className="cell">{product.price}</div>

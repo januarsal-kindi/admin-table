@@ -9,7 +9,7 @@ test('sets to label and name ', () => {
     expect(getByLabelText('name')).toBeInTheDocument()
 })
 
-test('check onClick button props ', () => {
+test('check on change props ', () => {
     const handleChange = jest.fn()
     const wraperr = render(<FormInput label="name" onChangeHandler={handleChange} />);
     const input = wraperr.getByLabelText('name')

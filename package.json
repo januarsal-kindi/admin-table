@@ -27,7 +27,7 @@
     "@zeit/next-sass": "^1.0.1",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "babel": {
     "presets": [
